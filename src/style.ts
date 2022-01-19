@@ -31,6 +31,14 @@ export default `.vega-embed {
 .vega-embed summary::-webkit-details-marker {
   display: none;
 }
+.vega-embed summary:focus {
+  opacity: 1 !important;
+  transition: opacity 0.2s ease;
+  background-color: #d9d9d9;
+}
+.vega-embed summary :focus:not(:focus-visible) {
+  outline: 0;
+}
 .vega-embed summary:focus-visible {
   opacity: 1 !important;
   transition: opacity 0.2s ease;
