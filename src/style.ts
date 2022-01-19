@@ -19,7 +19,7 @@ export default `.vega-embed {
   z-index: 1000;
   background: white;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  color: #1b1e23;
+  color: red;
   border: 1px solid #aaa;
   border-radius: 999px;
   opacity: 0.2;
