@@ -34,7 +34,6 @@ export default `.vega-embed {
 .vega-embed summary:focus {
   opacity: 1 !important;
   transition: opacity 0.2s ease;
-  background-color: #d9d9d9;
 }
 .vega-embed summary :focus:not(:focus-visible) {
   outline: 0;
@@ -42,7 +41,6 @@ export default `.vega-embed {
 .vega-embed summary:focus-visible {
   opacity: 1 !important;
   transition: opacity 0.2s ease;
-  background-color: #d9d9d9;
 }
 .vega-embed summary:active {
   box-shadow: #aaa 0px 0px 0px 1px inset;
