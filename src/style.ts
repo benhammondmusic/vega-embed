@@ -34,6 +34,8 @@ export default `.vega-embed {
 .vega-embed summary:focus {
   opacity: 1 !important;
   transition: opacity 0.2s ease;
+  outline: 2px solid black;
+  outline-offset: 2px;
 }
 .vega-embed summary:active {
   box-shadow: #aaa 0px 0px 0px 1px inset;
