@@ -19,10 +19,10 @@ export default `.vega-embed {
   z-index: 1000;
   background: white;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  color: red;
+  color: #1b1e23;
   border: 1px solid #aaa;
   border-radius: 999px;
-  opacity: 0.2;
+  opacity: 0.4;
   transition: opacity 0.4s ease-in;
   outline: none;
   cursor: pointer;
@@ -43,7 +43,7 @@ export default `.vega-embed {
   height: 14px;
 }
 .vega-embed details[open] summary:focus {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .vega-embed:hover summary {
   opacity: 1 !important;
