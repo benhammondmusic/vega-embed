@@ -39,16 +39,16 @@
       transition: opacity 0.2s ease;
     }
 
-    // override for all browsers that support focus-visible (NOT safari)
-    :focus:not(:focus-visible) {
-      outline: 0;
-    }
+    // // override for all browsers that support focus-visible (NOT safari)
+    // :focus:not(:focus-visible) {
+    //   outline: 0;
+    // }
 
-    // and only apply these to focus-visible
-    &:focus-visible {
-      opacity: 1 !important;
-      transition: opacity 0.2s ease;
-    }
+    // // and only apply these to focus-visible
+    // &:focus-visible {
+    //   opacity: 1 !important;
+    //   transition: opacity 0.2s ease;
+    // }
 
     &:active {
       box-shadow: #aaa 0px 0px 0px 1px inset;
