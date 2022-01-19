@@ -51,7 +51,7 @@ export default `.vega-embed {
   width: 14px;
   height: 14px;
 }
-.vega-embed details[open] summary {
+.vega-embed details[open] summary:focus {
   opacity: 0.7;
 }
 .vega-embed:hover summary {
